@@ -11,9 +11,9 @@ to keep as upstream for other cookiecutter django templates.
 
 ## Template variables
 
-* *project_name*: django project name, just like in startproject
-* *django_version*: what django version to install
-* *keep_virtualenv*: if we should keep the virtualenvironment that was created in the pre hook script,
+* **project_name**: django project name, just like in startproject
+* **django_version**: what django version to install
+* **keep_virtualenv**: if we should keep the virtualenvironment that was created in the pre hook script,
   any non "yes" value will remove the .ve directory
 
 ## Usage
